@@ -327,12 +327,7 @@ controller/AppController.java
     Producer producer;
 .
 .
-
-    @RequestMapping(value = "/sendKafka", method = RequestMethod.POST)
-    public String sendKafka(@RequestBody CrawlerRequest request) throws IOException, InterruptedException {
-            producer.send(request);
-            return "OK";
-    }
+ 
 ```
 show offsetExplorer
 <br>
