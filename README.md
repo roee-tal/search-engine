@@ -19,6 +19,9 @@ This project is a compact implementation of a search engine employing a crawler 
 - ### Docker:
    Utilized to run Kafka and Redis containers.
 
-- This project is built around Java with the Spring Boot framework, utilizing Redis for efficient data storage related to the crawler's progress. Elasticsearch serves as the powerhouse for indexing crawled content, facilitating robust search capabilities.
 
-- Additionally, the system offers flexibility with message brokers by supporting both Kafka , catering to diverse environments. The Docker containers ensure smooth deployment of Kafka and Redis, enabling seamless execution within varied setups.
+
+
+This project is built around Java with the Spring Boot framework, utilizing Redis for efficient data storage related to the crawler's progress. Elasticsearch serves as the powerhouse for indexing crawled content, facilitating robust search capabilities.
+
+Additionally, the system offers flexibility with message brokers by supporting both Kafka , catering to diverse environments. The Docker containers ensure smooth deployment of Kafka and Redis, enabling seamless execution within varied setups.
